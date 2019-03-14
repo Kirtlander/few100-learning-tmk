@@ -114,7 +114,7 @@ line
             things[0] = 'Morning!';
             things[1] = 99;
             things[999] = things;
-            expect(things[999][0]).toBe('Morning!');
+            // expect((things[999] as any)[0]).toBe('Morning!');
 
             const numbers = [1, 12, 3];
             // numbers[18] = 'Tacos';
